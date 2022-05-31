@@ -1,0 +1,156 @@
+body {
+  color: #40514E;
+  margin: 0; /*****for hole border to fill up*******/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #3BACB6;
+  margin-top: 0;/******for top blank to fill up*****/
+  font-size: 5.625rem;/********1rem=100%=16px,90px=565%=5.65rem if you specify font size in
+  body it gets added up for rem but not for px*******/
+/*****  margin: 0 auto 0 auto; box goes from top right bottom and left*******/
+font-family: 'Sacramento', cursive;
+margin: 50px auto 0 auto;
+}
+/**div {
+  background-color: #E4F9F5;
+}
+**/
+h2 {
+  color: #68A7AD;
+  font-weight: normal;/****unsets bold********/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+ }
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3BACB6;
+}
+hr {
+  border: dotted powderblue 6px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100px auto 100px auto;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px; /****10=top and bottom and 20 =left and right****/
+  text-decoration: none;/****it removes underline***/
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 50px 0 50px 0;/******or 50px 0;****/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 350px;
+}
+
+.circular {
+  margin-top: 50px;
+  border-radius: 100%;
+  width: 20%;
+}
+.snop {
+ position: relative;
+ left: 40px;
+}
+.comedy {
+  border-radius:100%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.jota {
+  width: 40%;
+  float: left;/******make the image go to the left and text appear in the
+  right side****/
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.siuu-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/***.monkey {
+  clear: left; /****it makes the text not to appear at the left side of
+  image****/
+/*}
+/***.donkey {
+  clear:right; /**it makes the text not to appear at the right side of the
+  image**/
+/**}***/
+.sancho {
+    line-height: 2;
+    width: 30%;
+    margin: auto;/*auto =center and all sides center***/
+}
+.pessi {
+line-height: 2;
+width: 10%;
+margin: 40px auto 60px auto;
+}
+
+.btn {
+  background: #4ab2f7;
+  background-image: -webkit-linear-gradient(top, #4ab2f7, #c123d9);
+  background-image: -moz-linear-gradient(top, #4ab2f7, #c123d9);
+  background-image: -ms-linear-gradient(top, #4ab2f7, #c123d9);
+  background-image: -o-linear-gradient(top, #4ab2f7, #c123d9);
+  background-image: linear-gradient(to bottom, #4ab2f7, #c123d9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f00000;
+  background-image: -webkit-linear-gradient(top, #f00000, #3fc45c);
+  background-image: -moz-linear-gradient(top, #f00000, #3fc45c);
+  background-image: -ms-linear-gradient(top, #f00000, #3fc45c);
+  background-image: -o-linear-gradient(top, #f00000, #3fc45c);
+  background-image: linear-gradient(to bottom, #f00000, #3fc45c);
+  text-decoration: none;
+}
+.tiger {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
